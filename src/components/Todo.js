@@ -4,9 +4,9 @@ import { View, Text, StyleSheet } from 'react-native'
 
 export default function Todo (params){
     const todo=params.todo
-    
+
     return(
-        <View style={StyleSheet.todo}>
+        <View style={styles.todo}>
             <Text>{todo.label}</Text>
         </View>
     )

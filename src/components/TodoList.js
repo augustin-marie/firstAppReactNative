@@ -7,7 +7,7 @@ export default function TodoList(todosProp){
     const todos = todosProp.todos
 
     return(
-        <View style={StyleSheet.todoList}>
+        <View style={styles.todoList}>
             {todos.map(todo => (
                 <Todo todo={todo} key={todo.id}></Todo>
             ))}
